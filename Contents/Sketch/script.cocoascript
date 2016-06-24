@@ -1,0 +1,23 @@
+var onRun = function(context) {
+  var doc = context.document
+
+//get selection
+var handler = context.document.eventHandlerManager().normalHandler()
+var whatUserSelected = handler.selectedRect()
+
+//get size and shape
+var theOriginalShape = whatUserSelected.origin
+var theOriginalSize = whatUserSelected.size
+
+//new artboard size
+var newArtboard = MSArtboardGroup.new()
+var artboardFrame = newArtboard.frame()
+
+//set that artboard size
+artboardFrame.setX(theOriginalShape.x)
+artboardFrame.setY(theOriginalShape.y)
+artboardFrame.setWidth(theOriginalSize.width)
+artboardFrame.setHeight(theOriginalSize.height)
+
+doc.currentPage().addLayers([newArtboard])
+};
