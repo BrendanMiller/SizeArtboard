@@ -21,5 +21,5 @@ Select your object or objects in any fashion you want, then hit Command+Y and yo
 That's it!
 
 
-Any questions or comments can be directed to Brendan at CloudCity.io
+Any questions or comments can be directed to Brendan at 
 [CloudCity.io](https://www.CloudCity.io)
