@@ -13,6 +13,9 @@ Download SizeArtboard and double-click the .sketchplugin file
 
 ## How it works?
 
+![cmd and y](http://i.imgur.com/5kEGG6e.png "hit command and y!")
+
+
 Select your object or objects in any fashion you want, then hit Command+Y and you'll have a new artboard over your selection. 
 
 That's it!
