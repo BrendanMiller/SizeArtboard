@@ -2,7 +2,7 @@
 
 ## A quick way to wrap a new artboard around your selected objects
 
-Have you ever had an object or series of objects outside of an artboard and you wanted a new artboard fit JUST to those objects?
+Have you ever had an object or series of objects outside of an artboard and you wanted a new artboard fit perfectly to the dimensions to JUST the objects you selected?
 
 Then this plugin is for you!
 
@@ -11,7 +11,7 @@ Then this plugin is for you!
 
 Download SizeArtboard and double-click the .sketchplugin file
 
-## How it works?
+## How it works
 
 ![cmd and y](http://i.imgur.com/5kEGG6e.png "hit command and y!")
 
