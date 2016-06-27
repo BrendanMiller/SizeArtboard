@@ -19,3 +19,7 @@ Download SizeArtboard and double-click the .sketchplugin file
 Select your object or objects in any fashion you want, then hit Command+Y and you'll have a new artboard over your selection. 
 
 That's it!
+
+
+Any questions or comments can be directed to Brendan at CloudCity.io
+[CloudCity.io](https://www.CloudCity.io)
