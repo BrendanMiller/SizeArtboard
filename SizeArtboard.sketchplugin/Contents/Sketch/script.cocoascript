@@ -23,5 +23,12 @@ artboardFrame.setHeight(theOriginalSize.height)
 // name the artboard
 newArtboard.name = selection.firstObject().name()
 
+// move layers
+for (var i=0; i<[selection count]; i++) {
+  selection[i].setOrigin({x: 0, y: 0})
+  selection[i].parentGroup().removeLayer(selection[i])
+}
+newArtboard.addLayers(selection)
+
 doc.currentPage().addLayers([newArtboard])
 };
