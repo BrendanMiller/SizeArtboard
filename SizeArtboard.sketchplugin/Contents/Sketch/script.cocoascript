@@ -2,6 +2,7 @@ var onRun = function(context) {
   var doc = context.document
 
 //get selection
+var selection = context.selection
 var handler = context.document.eventHandlerManager().normalHandler()
 var whatUserSelected = handler.selectedRect()
 
@@ -18,6 +19,9 @@ artboardFrame.setX(theOriginalShape.x)
 artboardFrame.setY(theOriginalShape.y)
 artboardFrame.setWidth(theOriginalSize.width)
 artboardFrame.setHeight(theOriginalSize.height)
+
+// name the artboard
+newArtboard.name = selection.firstObject().name()
 
 doc.currentPage().addLayers([newArtboard])
 };
