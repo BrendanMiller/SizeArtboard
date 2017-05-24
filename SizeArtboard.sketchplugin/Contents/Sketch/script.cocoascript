@@ -25,9 +25,13 @@ var onRun = function(context) {
 
   // move layers
   for (var i=0; i<[selection count]; i++) {
-    selection[i].setOrigin({x: 0, y: 0})
+    var frame = selection[i].frame()
+    var frameX = frame.x() - theOriginalShape.x
+    var frameY = frame.y() - theOriginalShape.y
+    selection[i].setOrigin({x: frameX, y: frameY})
     selection[i].parentGroup().removeLayer(selection[i])
   }
+  
   newArtboard.addLayers(selection)
 
   doc.currentPage().addLayers([newArtboard])
