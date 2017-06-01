@@ -1,4 +1,5 @@
 #  SizeArtboard
+[![Download from Sketchpacks.com](https://badges.sketchpacks.com/plugins/com.example.sketch.6f2c3d8b-6b8a-4e22-b03b-80e26fbc3bf2/version.svg)](https://api.sketchpacks.com/v1/plugins/com.example.sketch.6f2c3d8b-6b8a-4e22-b03b-80e26fbc3bf2/download) [![Compatible Sketch Version](https://badges.sketchpacks.com/plugins/com.example.sketch.6f2c3d8b-6b8a-4e22-b03b-80e26fbc3bf2/compatibility.svg)](https://sketchpacks.com/BrendanMiller/SizeArtboard)
 
 ## A quick way to wrap a new artboard around your selected objects
 
