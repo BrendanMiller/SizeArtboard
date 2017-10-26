@@ -20,6 +20,7 @@
     "title" : "SizeArtboard"
   },
   "identifier" : "com.example.sketch.6f2c3d8b-6b8a-4e22-b03b-80e26fbc3bf2",
+  "appcast": "https://api.sketchpacks.com/v1/plugins/com.example.sketch.6f2c3d8b-6b8a-4e22-b03b-80e26fbc3bf2/appcast",
   "version" : "1.0",
   "description" : "Creates a new artboard based on whatever you have selected",
   "authorEmail" : "brendan@cloudcity.io",
